@@ -9,5 +9,8 @@ echo "compute a+b+c: "$result1
 result2=$(($a + $b * $c))
 echo "compute a+b*c: "$result2
 #Compute a+b*c
-result3=$(($a + $b * $c))
-echo "compute a+b*c: "$result3
+result3=$(($a * $b + $c))
+echo "compute a*b+c: "$result3
+#Compute c+a/b
+result4=$(($c + $a / $b))
+echo "compute c+a/b: "$result4

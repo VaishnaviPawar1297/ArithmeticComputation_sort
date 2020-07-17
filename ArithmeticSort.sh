@@ -23,3 +23,9 @@ DICT[result2]=$result2
 DICT[result3]=$result3
 DICT[result4]=$result4
 DICT[result5]=$result5
+#result store Dictionary to array
+ARR[0]=${DICT[result1]}
+ARR[1]=${DICT[result2]}
+ARR[2]=${DICT[result3]}
+ARR[3]=${DICT[result4]}
+ARR[4]=${DICT[result5]}

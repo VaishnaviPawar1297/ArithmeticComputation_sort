@@ -8,7 +8,7 @@ echo "compute a+b+c: "$result1
 #Compute a+b*c
 result2=$(($a + $b * $c))
 echo "compute a+b*c: "$result2
-#Compute a+b*c
+#Compute a*b+c
 result3=$(($a * $b + $c))
 echo "compute a*b+c: "$result3
 #Compute c+a/b
@@ -17,3 +17,9 @@ echo "compute c+a/b: "$result4
 #Compute a%b+c
 result5=$(($a % $b + $c))
 echo "compute a%b+c: "$result5
+#Result store into dictionary
+DICT[result1]=$result1
+DICT[result2]=$result2
+DICT[result3]=$result3
+DICT[result4]=$result4
+DICT[result5]=$result5

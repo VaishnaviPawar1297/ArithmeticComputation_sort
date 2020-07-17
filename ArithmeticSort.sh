@@ -8,3 +8,6 @@ echo "compute a+b+c: "$result1
 #Compute a+b*c
 result2=$(($a + $b * $c))
 echo "compute a+b*c: "$result2
+#Compute a+b*c
+result3=$(($a + $b * $c))
+echo "compute a+b*c: "$result3

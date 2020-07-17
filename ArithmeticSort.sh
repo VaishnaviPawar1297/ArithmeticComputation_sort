@@ -14,3 +14,6 @@ echo "compute a*b+c: "$result3
 #Compute c+a/b
 result4=$(($c + $a / $b))
 echo "compute c+a/b: "$result4
+#Compute a%b+c
+result5=$(($a % $b + $c))
+echo "compute a%b+c: "$result5

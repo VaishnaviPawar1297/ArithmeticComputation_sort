@@ -29,3 +29,22 @@ ARR[1]=${DICT[result2]}
 ARR[2]=${DICT[result3]}
 ARR[3]=${DICT[result4]}
 ARR[4]=${DICT[result5]}
+#Sort into Decending order
+for ((ENTRY=0 ; ENTRY<5 ; ENTRY++))
+do
+   for ((ELEMENT=0 ; ELEMENT<5-ENTRY-1 ; ELEMENT++))
+   do
+      if ((${ARR[ELEMENT]} < ${ARR[$((ELEMENT+1))]} ))
+      then
+         TEMP=${ARR[ELEMENT]}
+         ARR[$ELEMENT]=${ARR[$((ELEMENT+1))]}
+         ARR[$((ELEMENT+1))]=$TEMP
+       fi
+   done
+done
+
+echo "Decending Array:"
+for ((ELEMENT=0; ELEMENT<5; ELEMENT++))
+do
+   echo ${ARR[ELEMENT]}
+done

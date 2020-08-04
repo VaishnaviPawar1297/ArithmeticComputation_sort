@@ -1,7 +1,7 @@
 #!bin/bash -x
 #taking inputs
 echo "conflict"
-echo "sorting conflict 1 created by parthiban"
+echo "sorting conflict 1 created by Shubham"
 read -p "Enter value of a:" a
 read -p "Enter value of b:" b
 read -p "Enter value of c:" c

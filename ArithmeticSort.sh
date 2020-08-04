@@ -1,10 +1,10 @@
 #!bin/bash -x
 #taking inputs
-echo "conflict added"
 echo "sorting conflict 1 created by parthiban"
 echo "conflict"
 echo "sorting conflict 1 created by Shubham"
->>>>>>> 1a7f47dc5ca42238ee4f44c3dd65cdf1390f8a5a
+echo "Conflicts resolved"
+
 read -p "Enter value of a:" a
 read -p "Enter value of b:" b
 read -p "Enter value of c:" c

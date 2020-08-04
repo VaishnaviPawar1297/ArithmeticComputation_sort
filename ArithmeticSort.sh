@@ -1,6 +1,6 @@
 #!bin/bash -x
 #taking inputs
-echo "conflict"
+echo "conflict added"
 echo "sorting conflict 1 created by parthiban"
 read -p "Enter value of a:" a
 read -p "Enter value of b:" b

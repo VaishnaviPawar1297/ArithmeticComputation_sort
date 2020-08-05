@@ -1,5 +1,6 @@
 #!bin/bash -x
 #taking inputs
+echo "sorting conflict 2 created by parthiban"
 echo "sorting conflict 1 created by parthiban"
 echo "conflict"
 echo "sorting conflict 1 created by Shubham"
